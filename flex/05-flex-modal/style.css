@@ -15,11 +15,35 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  gap: 10px;
+}
+
+.leftside{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rightside{
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.topright{
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon {
